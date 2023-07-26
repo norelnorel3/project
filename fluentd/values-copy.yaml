@@ -377,10 +377,3 @@ fileConfigs:
     </label>
 
 
-    helm install jaeger jaegertracing/jaeger \
-  --set provisionDataStore.cassandra=false \
-  --set storage.type=elasticsearch \
-  --set storage.elasticsearch.host=elasticsearch-master \
-  --set storage.elasticsearch.port=9200 \
-  --set storage.elasticsearch.user= \
-  --set storage.elasticsearch.password=
